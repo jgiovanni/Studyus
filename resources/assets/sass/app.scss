@@ -1,0 +1,26 @@
+
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css);
+
+// Variables
+@import "variables";
+
+// Material
+//@import "~vuetify/dist/vuetify.min.css";
+//@import "vendor/css/bootstrap/vuetify.min.css";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+[v-cloak], [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .hidden {
+  display: none !important;
+}
+
+#alerts {
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed !important;
+  z-index: 999;
+}
