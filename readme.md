@@ -1,4 +1,4 @@
-# Homework Homie
+# STUDYUS
 
 > A Vue.js project
 
